@@ -1,0 +1,36 @@
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+@import "~font-awesome/css/font-awesome.css";
+
+.header {
+    background-color: black;
+    color: white;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.box  {
+    height: 30px;
+    width: 30px;
+    background-color: gray;
+    text-align: center;
+    /* margin: 0px 50px 0px 0px; */
+    margin-left: 70px;
+    margin-right: -60px;
+}
+
+.title-center {
+    flex: 1 1 auto;
+    text-align: center;
+    .logo {
+        width: 50px;
+        height: 35px;
+        margin-top: 6px;
+    }
+    .search-bar {
+        border-radius: 8px;
+        height: 35px;
+        width: 100%;
+        padding-left: 30px;
+        font-size: 18px;
+    }
+}
